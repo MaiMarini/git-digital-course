@@ -81,12 +81,12 @@ Git pull
 `git log --pretty=oneline` => Log da branch  
 `git checkout <BRANCH-NAME-LOCAL>` => Entra na branch que vai receber as alterações  
 `git merge <BRANCH-NAME-PRINCIPAL>` => Mescla uma branch na branch atual.
-`git commit -m “mensagem de commit”` => Cria um novo commit que tenha todos os conteúdos atuais do índice e a mensagem informada no registro log descrevendo as alterações.
+`git commit` => Cria um novo commit que tenha todos os conteúdos atuais do índice e a mensagem informada no registro log descrevendo as alterações.
 
 Git merge
 `git checkout <BRANCH-NAME>` => Entra na branch onde você deseja incorporar as mudanças.  
 `git pull origin` => Atualize sua branch atual para garantir que ela esteja sincronizada com o repositório remoto.  
 `git merge <BRANCH-NAME-PARA-MERGE>` => Mescla uma branch (BRANCH-NAME-PARA-MERGE) na branch atual (BRANCH-NAME).  
-`git commit -m “mensagem de commit”` => Cria um novo commit que tenha todos os conteúdos atuais do índice e a mensagem informada no registro log descrevendo as alterações.
+`git commit` => Cria um novo commit que tenha todos os conteúdos atuais do índice e a mensagem informada no registro log descrevendo as alterações.
 
 ---
