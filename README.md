@@ -6,3 +6,4 @@ Santander Coders - Módulo 01: Git e Versionamento
 
 - Comando git push
 - Comando git pull
+- Comando git fetch e git merge
