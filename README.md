@@ -80,7 +80,7 @@ Git pull
 `git pull origin`  
 `git log --pretty=oneline` => Log da branch  
 `git checkout <BRANCH-NAME-LOCAL>` => Entra na branch que vai receber as alterações  
-`git merge <BRANCH-NAME-PRINCIPAL>` => Mescla uma branch na branch atual.
+`git merge <BRANCH-NAME-PRINCIPAL>` => Mescla uma branch na branch atual.  
 `git push` => Publica as alterações para que estejam disponíveis no GitHub.
 
 Git merge  
