@@ -5,3 +5,4 @@ Santander Coders - Módulo 01: Git e Versionamento
 ## Salvando alterações no Git
 
 - Comando git push
+- Comando git pull
