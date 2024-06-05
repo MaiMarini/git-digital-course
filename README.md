@@ -75,11 +75,16 @@ Alterar nome da branch
 `git push origin -u <new-branch-name>`
 
 Git pull  
-`git checkout <BRANCH-NAME-PRINCIPAL>`  
+`git checkout <BRANCH-NAME-PRINCIPAL>` => Entra na branch com alterações para serem baixadas.  
 `git pull`  
 `git pull origin`  
 `git log --pretty=oneline` => Log da branch  
-`git checkout <BRANCH-NAME-LOCAL>`  
+`git checkout <BRANCH-NAME-LOCAL>` => Entra na branch que vai receber as alterações  
 `git merge <BRANCH-NAME-PRINCIPAL>` => Mescla uma branch na branch atual.
+
+Git merge
+`git checkout <BRANCH-NAME>` => Entra na branch onde você deseja incorporar as mudanças.  
+`git pull origin` => Atualize sua branch atual para garantir que ela esteja sincronizada com o repositório remoto.  
+`git merge <BRANCH-NAME-PARA-MERGE>` => Mescla uma branch (BRANCH-NAME-PARA-MERGE) na branch atual (BRANCH-NAME).
 
 ---
