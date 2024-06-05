@@ -83,7 +83,7 @@ Git pull
 `git merge <BRANCH-NAME-PRINCIPAL>` => Mescla uma branch na branch atual.
 `git push` => Publica as alterações para que estejam disponíveis no GitHub.
 
-Git merge
+Git merge  
 `git checkout <BRANCH-NAME>` => Entra na branch onde você deseja incorporar as mudanças.  
 `git pull origin` => Atualize sua branch atual para garantir que ela esteja sincronizada com o repositório remoto.  
 `git merge <BRANCH-NAME-PARA-MERGE>` => Mescla uma branch (BRANCH-NAME-PARA-MERGE) na branch atual (BRANCH-NAME).  
