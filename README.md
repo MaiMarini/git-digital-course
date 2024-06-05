@@ -1,5 +1,3 @@
-Aqui está o texto com todos os comandos entre crases, conforme solicitado:
-
 ## Santander Coders - Módulo 01: Git e Versionamento
 
 # Git:
@@ -20,20 +18,15 @@ Aqui está o texto com todos os comandos entre crases, conforme solicitado:
 
 # Comandos:
 
-<<<<<<< HEAD
 Configurações  
-=======
-Configurações
-
-> > > > > > > 6aa48ddf3caf8ffd5f47c50d0e42dac6c7c4a84b
-> > > > > > > `git config --global user.name "Nome do autor"`  
-> > > > > > > `git config --global user.email <email-do-autor>`
+`git config --global user.name "Nome do autor"`  
+`git config --global user.email <email-do-autor>`
 
 Geral  
 `git status` => Informa o status das alterações do projeto, se houverem, modified, unstage e etc.  
 `git clone <url>` => Clona um repositório existente.  
 `git add <nome-do-arquivo>` => adiciona uma alteração no diretório de trabalho à área de alterações preparadas (stage).  
-Exemplos:  
+Exemplo:  
 `git add .\README.md`  
 `git commit -m “mensagem de commit”` => Cria um novo commit que tenha todos os conteúdos atuais do índice e a mensagem informada no registro log descrevendo as alterações.  
 `git diff` => Usado para visualizar as diferenças entre duas versões de um arquivo ou entre duas branches no repositório Git, arquivos ou inputs.  
@@ -47,18 +40,10 @@ Exemplos:
 # Desfazer commit antes do push:
 
 `git restore <nome-do-arquivo>` => O comando restaura os arquivos que estão visíveis (working tree) para serem idênticos aos do commit atual (HEAD).  
-<<<<<<< HEAD
-Antes do git add  
+Antes do `git add`  
 `git restore <nome-do-arquivo>` (.\README.md)  
-Depois do git add  
-=======
-Exemplos:  
-Antes do git add  
-`git restore <nome-do-arquivo>` (.\README.md)  
-Depois do git add
-
-> > > > > > > 6aa48ddf3caf8ffd5f47c50d0e42dac6c7c4a84b
-> > > > > > > `git restore --staged <nome-do-arquivo>` (.\README.md)
+Depois do `git add`  
+`git restore --staged <nome-do-arquivo>` (.\README.md)
 
 `git reset HEAD^ --hard` => Descartando as alterações.  
 `git reset HEAD^ --soft` => Sem descartar as alterações.
